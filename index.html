@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Create an Account</title>
+  </head>
+  <body>
+      <nav>
+          <div id="logo"><img src="/logo-white.png"  alt="logo"></div>
+      </nav>      
+  <section>
+      <form action="">  
+      <div class="form">
+      <div class="title">Create an Account</div>
+      <div class="input-container ic1">
+        <input id="firstname" class="input" type="text" placeholder=" " required />
+        <label for="firstname" class="placeholder">First name</label>
+      </div>
+      <div class="input-container ic2">
+        <input id="lastname" class="input" type="text" placeholder=" " required />
+        <label for="lastname" class="placeholder">Last name</label>
+      </div>
+      <div class="input-container ic2">
+        <input id="email" class="input" type="text" placeholder=" " required />
+        <label for="email" class="placeholder">Email</label>
+      </div>
+      <div class="option">
+        <select id="gender" name="gender">
+            <option>Male</option>
+            <option>Female</option>
+      </div>
+      <div class="btn">
+        <input value="Register" type="button" class="submit"></input>
+      </div>
+    </div>
+    </form>
+    <!-- MODAL REGISTRATION -->
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Registration Successful 👍</h1>
+        <p>
+          Your account has been created successfully!!
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+</section>
+<script src="main.js"></script>
+</body>
+</html> 
